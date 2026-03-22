@@ -9,19 +9,19 @@ This software, including all source code, documentation, design elements, and as
 
 ## 2. Permitted Use
 You may:
-- ✅ View and use the Software through the official website: [https://math-plus-plus.netlify.app](https://math-plus-plus.netlify.app)
-- ✅ View the source code on GitHub for educational and portfolio purposes only
-- ✅ Share the live website link
+- View and use the Software through the official website: [https://math-plus-plus.netlify.app](https://math-plus-plus.netlify.app)
+- View the source code on GitHub for educational and portfolio purposes only
+- Share the live website link
 
 ## 3. Prohibited Use
 You may **NOT**:
-- ❌ Copy, reproduce, or distribute the Software in whole or in part
-- ❌ Modify, adapt, translate, or create derivative works
-- ❌ Deploy, host, or publish the Software elsewhere (including fork, clone, or re-upload)
-- ❌ Use the Software for commercial purposes
-- ❌ Remove or alter any copyright or proprietary notices
-- ❌ Reverse engineer, decompile, or disassemble the Software
-- ❌ Claim ownership or authorship of the Software
+- Copy, reproduce, or distribute the Software in whole or in part
+- Modify, adapt, translate, or create derivative works
+- Deploy, host, or publish the Software elsewhere (including fork, clone, or re-upload)
+- Use the Software for commercial purposes
+- Remove or alter any copyright or proprietary notices
+- Reverse engineer, decompile, or disassemble the Software
+- Claim ownership or authorship of the Software
 
 ## 4. Educational Viewing
 The source code is provided on GitHub **for portfolio and educational viewing only**. Any use beyond viewing—including downloading, modifying, or deploying—requires explicit written permission from the author.
