@@ -4,6 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Math++ | Number Systems & Arithmetic Mastery</title>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-413DZ8BGCW"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-413DZ8BGCW');
+</script>
+    <link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#6366f1">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Math++">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <style>
         :root {
@@ -2040,11 +2053,30 @@
     </script>
     <footer style="text-align: center; padding: 2rem; background: var(--light); border-top: 1px solid #e2e8f0; margin-top: 2rem;">
     <p>© 2026 Teboho Mpholo | Math++ - Master Number Systems</p>
-    <p style="font-size: 0.875rem; color: #64748b;">Built with ❤️ for learners everywhere</p>
+    <p style="font-size: 0.875rem; color: #64748b;">Built with love for learners everywhere | 
         📧 <a href="mailto:mpholo470@gmail.com" style="color: var(--primary);">mpholo470@gmail.com</a>
-  
-</script>
+    </p>
+    <button id="installBtn" style="background: #0f3b2c; color: white; border: none; padding: 0.6rem 1.2rem; border-radius: 8px; cursor: pointer; margin-top: 0.5rem; display: none;">
+        📱 Install as App
+    </button>
         
 </footer>
+    <script>
+    // PWA Install Prompt for Math++
+    let deferredPrompt;
+    window.addEventListener('beforeinstallprompt', (e) => {
+        e.preventDefault();
+        deferredPrompt = e;
+        const installBtn = document.getElementById('installBtn');
+        if (installBtn) {
+            installBtn.style.display = 'inline-block';
+            installBtn.onclick = () => {
+                installBtn.style.display = 'none';
+                deferredPrompt.prompt();
+                deferredPrompt.userChoice.then(() => deferredPrompt = null);
+            };
+        }
+    });
+</script>
 </body>
 </html>
